@@ -1,0 +1,26 @@
+{
+   "name": "small-framework",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "k": "knex"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/emildd/small-framework.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/emildd/small-framework/issues"
+   },
+   "homepage": "https://github.com/emildd/small-framework#readme",
+   "dependencies": {
+      "knex": "^2.4.0",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "route-parser": "0.0.5"
+   }
+}

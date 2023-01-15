@@ -1,0 +1,21 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "emylmaulana",
+    "password": "",
+    "database": "globalcms",
+    "synchronize": true,
+    "entities": [
+        "./src/models/entity/*.js"
+    ],
+    "migrationsTableName": "__migrations",
+    "migrations": [
+        "./src/models/migration/*.js"
+    ],
+    "cli": {
+        "entitiesDir": "./src/models/entity",
+        "migrationsDir": "./src/models/migration",
+        "subscribersDir": "./src/models/subscriber"
+    }
+}
