@@ -17,7 +17,7 @@ module.exports = {
     },
     migrations: {
       tableName: '__migrations'
-    }
+    },
   },
 
   staging: {
